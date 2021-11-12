@@ -1,4 +1,4 @@
-# AJeHeplerD2R
+# AJeHelperD2R
 아재헬퍼 D2R은 아재들의 손가락 건강을 위한 디아블로2 키 매크로(헬퍼) 입니다.<br>
 
 
