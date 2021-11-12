@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Buff" xml:space="preserve">
+    <value>버프 실행 중</value>
+  </data>
+  <data name="Donate" xml:space="preserve">
+    <value>후원하기</value>
+  </data>
+  <data name="Ing" xml:space="preserve">
+    <value>번 실행 중</value>
+  </data>
+  <data name="Just_Once" xml:space="preserve">
+    <value>한번만 실행</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>불러오기</value>
+  </data>
+  <data name="Localize" xml:space="preserve">
+    <value>ko</value>
+  </data>
+  <data name="mBufChangeLabel" xml:space="preserve">
+    <value>무기 교환키</value>
+  </data>
+  <data name="mBufDisplayButton" xml:space="preserve">
+    <value>버프 표시</value>
+  </data>
+  <data name="mBuffGroupBox" xml:space="preserve">
+    <value>버프 정보</value>
+  </data>
+  <data name="mBuffTimeLabel" xml:space="preserve">
+    <value>버프 시간(초) :</value>
+  </data>
+  <data name="mBufKeyLabel" xml:space="preserve">
+    <value>버프키</value>
+  </data>
+  <data name="mBufLabel" xml:space="preserve">
+    <value>버프키 사이 딜레이(ms)</value>
+  </data>
+  <data name="mBufStartLabel" xml:space="preserve">
+    <value>동작 시작키</value>
+  </data>
+  <data name="mButtonTypeLabel" xml:space="preserve">
+    <value>동작 버튼</value>
+  </data>
+  <data name="mControlKeyLabel" xml:space="preserve">
+    <value>동작 시작/종료 키</value>
+  </data>
+  <data name="mControlRepeatLabel" xml:space="preserve">
+    <value>반복 딜레이(ms) :</value>
+  </data>
+  <data name="mControlTypeLabel" xml:space="preserve">
+    <value>동작 타입</value>
+  </data>
+  <data name="mDescLabel" xml:space="preserve">
+    <value>빨간색 박스가 용병 화면 있는 위치    파란색 박스가 복사해서 표시할 위치</value>
+  </data>
+  <data name="mEffectLabel" xml:space="preserve">
+    <value>종료 시 효과음 :</value>
+  </data>
+  <data name="mEffectVolumnLabel" xml:space="preserve">
+    <value>효과음 크기 :</value>
+  </data>
+  <data name="Message1" xml:space="preserve">
+    <value>키보드, 마우스 입력을 후킹할 수 없습니다.</value>
+  </data>
+  <data name="Message2" xml:space="preserve">
+    <value>저장하지 않은 변경된 데이터가 있습니다. 그래도 종료하시겠습니까?</value>
+  </data>
+  <data name="Message3" xml:space="preserve">
+    <value>마우스 좌클릭을 헬퍼 사용 시작/중지키로 설정할 수 없습니다!</value>
+  </data>
+  <data name="Message4" xml:space="preserve">
+    <value>마우스 우클릭을 헬퍼 사용 시작/중지키로 설정할 수 없습니다!</value>
+  </data>
+  <data name="Message5" xml:space="preserve">
+    <value>이미 키가 등록되어 있습니다!</value>
+  </data>
+  <data name="Message6" xml:space="preserve">
+    <value>마우스 좌클릭을 정지키로 설정할 수 없습니다!</value>
+  </data>
+  <data name="Message7" xml:space="preserve">
+    <value>마우스 우클릭을 정지키로 설정할 수 없습니다!</value>
+  </data>
+  <data name="mGoupBox1" xml:space="preserve">
+    <value>헬퍼사용 시작/종료키</value>
+  </data>
+  <data name="mGoupBox2" xml:space="preserve">
+    <value>잠시 멈춤키</value>
+  </data>
+  <data name="mGoupBox3" xml:space="preserve">
+    <value>동작키</value>
+  </data>
+  <data name="mGoupBox4" xml:space="preserve">
+    <value>용병</value>
+  </data>
+  <data name="mGoupBox5" xml:space="preserve">
+    <value>버프키 (버프키 옆 체크 박스는 무기교환 위치)</value>
+  </data>
+  <data name="mImageLabel" xml:space="preserve">
+    <value>이미지 파일   :</value>
+  </data>
+  <data name="mMemoLabel" xml:space="preserve">
+    <value>메모</value>
+  </data>
+  <data name="mMercenaryButton" xml:space="preserve">
+    <value>용병 표시</value>
+  </data>
+  <data name="mOpacityLabel" xml:space="preserve">
+    <value>투명도 :</value>
+  </data>
+  <data name="Mouse_Left" xml:space="preserve">
+    <value>마우스 좌버튼</value>
+  </data>
+  <data name="Mouse_Right" xml:space="preserve">
+    <value>마우스 우버튼</value>
+  </data>
+  <data name="mPotionNowKeyLabel" xml:space="preserve">
+    <value>현재 물약키</value>
+  </data>
+  <data name="mPotionReplaceKeyLabel" xml:space="preserve">
+    <value>대체 물약키</value>
+  </data>
+  <data name="mProgramLabel" xml:space="preserve">
+    <value>동작할 프로그램명</value>
+  </data>
+  <data name="mShiftKeyLabel" xml:space="preserve">
+    <value>정지키 :</value>
+  </data>
+  <data name="mShiftLabel" xml:space="preserve">
+    <value>정지</value>
+  </data>
+  <data name="mTechKeyLabel" xml:space="preserve">
+    <value>기술키</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>새파일</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>열기</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>잠시 멈춤</value>
+  </data>
+  <data name="Push" xml:space="preserve">
+    <value>누름</value>
+  </data>
+  <data name="Push_Holding" xml:space="preserve">
+    <value>누르고 있기(홀딩)</value>
+  </data>
+  <data name="Push_Toggle" xml:space="preserve">
+    <value>누르고 있기(토글)</value>
+  </data>
+  <data name="Repeat_Holding" xml:space="preserve">
+    <value>반복(홀딩)</value>
+  </data>
+  <data name="Repeat_Toggle" xml:space="preserve">
+    <value>반복(토글)</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>저장하기</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>동작 상태 :</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>중지</value>
+  </data>
+  <data name="ToolTip" xml:space="preserve">
+    <value>토글: 한번 누르면 실행, 다시 한번 누르면 종료 / 홀딩 : 누르고 있으면 실행</value>
+  </data>
+</root>
